@@ -1,0 +1,5 @@
+prettierrc.json
+var/
+.DS_Store
+.vcode/
+.idea/
