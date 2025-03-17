@@ -1,3 +1,4 @@
+/* Variables */
 :root {
   /* Colors */
   --text-dark: #434455;
@@ -24,11 +25,9 @@
   --box-shadow-transition: box-shadow var(--transition-config);
   --color-transition: color var(--transition-config);
   --transform-transition: transform var(--transition-config);
-
 }
 
 /* Global styles */
-
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -165,12 +164,9 @@ img {
 }
 
 /* Header styles */
-
 .header {
   border-bottom: 1px solid rgba(231, 233, 252, 1);
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  box-shadow: var(--card-box-shadow);
 }
 
 .header .container {
@@ -203,7 +199,6 @@ img {
 
 .nav-link.active {
   color: var(--hover-color);
-
 }
 
 .nav-link::after {
@@ -304,7 +299,6 @@ img {
   padding: 16px 32px;
   border-radius: 4px;
   transition: background-color var(--transition-config);
-
 }
 
 .order-btn:hover,
@@ -313,7 +307,6 @@ img {
 }
 
 /* 2nd section Features section */
-
 .features-section-title {
   text-align: center;
   margin-bottom: 8px;
@@ -445,7 +438,6 @@ img {
 .portfolio-item-text {}
 
 /* Footer */
-
 .footer {
   color: var(--cloud);
   background-color: var(--background-dark-color);
@@ -491,7 +483,6 @@ img {
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
-  /* 150% */
   letter-spacing: 0.32px;
   margin-bottom: 16px;
 }
